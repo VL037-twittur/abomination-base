@@ -13,7 +13,7 @@ import vincentlow.twittur.base.web.model.response.PageMetaData;
 @Data
 @NoArgsConstructor // default const for JACKSON
 @AllArgsConstructor
-public class ApiListResponse<T extends BaseResponse> extends ApiResponse {
+public class ApiListResponse<T> extends ApiResponse {
 
   private static final long serialVersionUID = -7883416372482519260L;
 
